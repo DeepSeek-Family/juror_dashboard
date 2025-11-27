@@ -11,7 +11,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: "https://admin.glassfile.xyz/",
+    host: "0.0.0.0",
     port: 3016,
   },
 });
